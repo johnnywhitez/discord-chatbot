@@ -6,7 +6,7 @@ import requests
 import random
 
 # Set your OpenAI API key here
-openai.api_key = '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'
+openai.api_key = 'add api key here'
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -379,4 +379,4 @@ def get_bot_response(message: str, pl: list[str]) -> str:
 
     return bot_response
 
-bot.run('ODkwOTk5MzMyNzcyMzkzMDIw.G84tAC.W7bRLTB3ybCbPk8wv49Xl342iaf6224xkNG-9M')
+bot.run('bot token here')
